@@ -1,0 +1,4 @@
+设f(a,b)为gcd(x,y)=1,1<=x<=a,1<=y<=b的数目，那么gcd(x,y)=1,a<=x<=b,c<=y<=d的数目用容斥定理弄一下
+就成了f(b,d)-f(a-1,d)-f(b,c-1)+f(a-1,c-1)
+
+原题链接：https://www.lydsy.com/JudgeOnline/problem.php?id=2301

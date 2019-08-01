@@ -1,0 +1,6 @@
+要求1<=x<=a,1<=y<=b,gcd(x,y)=c的数对数目，那么就相当于求，gcd(x/c,y/c)=1,1<=x<=a/c,1<=y<=b/c的数目，
+然后再用神奇的莫比乌斯反演可以得到答案是，sigma u(d)(a/(cd))(b/(cd)),对a/(cd)分段统计即可，总复杂度O(n^1.5)
+
+
+
+原题链接：https://www.lydsy.com/JudgeOnline/problem.php?id=1101
